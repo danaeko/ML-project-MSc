@@ -1,12 +1,11 @@
-Run the script 'script_code.sh'
+Run the script script_code.sh
 
-The script does the following
+The script performs the following tasks:
 
+  1. Reads the dataset and provides a description of the corresponding data.
 
-1. Read the dataset and provides a description of the corresponding data
+  2. Tests six different classification models using K-fold cross-validation to select the best hyperparameters for     each model.
 
-2. Tests 6 different classification models with K fold cross validation in order to select the best hyper-parameters for each model
+  3. Uses the best models from step 2 to run two different algorithms for feature selection.
 
-3. With the best models from step 2 runs 2 different algorithms for feature selection
-
-4. Test the performance of each model, using the optimal hyper-parameters and features from step 2 and 3 respectively 
+  4. Evaluates the performance of each model using the optimal hyperparameters and selected features from steps 2 and   3, respectively.
