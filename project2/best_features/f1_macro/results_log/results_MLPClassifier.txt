@@ -1,0 +1,181 @@
+testing best model MLPClassifier
+testing for 1 features
+anova score 0.347222
+testing for 2 features
+anova score 0.384259
+testing for 3 features
+anova score 0.398148
+testing for 4 features
+anova score 0.472222
+testing for 5 features
+anova score 0.560185
+testing for 6 features
+anova score 0.666667
+testing for 7 features
+anova score 0.768519
+testing for 8 features
+anova score 0.796296
+testing for 9 features
+anova score 0.791667
+testing for 10 features
+anova score 0.842593
+testing for 11 features
+anova score 0.810185
+testing for 12 features
+anova score 0.898148
+testing for 13 features
+anova score 0.851852
+testing for 14 features
+anova score 0.842593
+testing for 15 features
+anova score 0.865741
+testing for 16 features
+anova score 0.814815
+testing for 17 features
+anova score 0.898148
+testing for 18 features
+anova score 0.930556
+testing for 19 features
+anova score 0.944444
+testing for 20 features
+anova score 0.967593
+testing for 21 features
+anova score 0.921296
+testing for 22 features
+anova score 0.912037
+testing for 23 features
+anova score 0.916667
+testing for 24 features
+anova score 0.939815
+testing for 25 features
+anova score 0.921296
+testing for 26 features
+anova score 0.916667
+testing for 27 features
+anova score 0.949074
+testing for 28 features
+anova score 0.925926
+testing for 29 features
+anova score 0.925926
+testing for 30 features
+anova score 0.935185
+testing for 31 features
+anova score 0.953704
+testing for 32 features
+anova score 0.944444
+testing for 33 features
+anova score 0.935185
+testing for 34 features
+anova score 0.949074
+testing for 35 features
+anova score 0.944444
+testing for 36 features
+anova score 0.930556
+testing for 37 features
+anova score 0.949074
+testing for 38 features
+anova score 0.930556
+testing for 39 features
+anova score 0.953704
+testing for 40 features
+anova score 0.949074
+testing for 41 features
+anova score 0.949074
+testing for 42 features
+anova score 0.953704
+testing for 43 features
+anova score 0.944444
+testing for 44 features
+anova score 0.916667
+testing for 45 features
+anova score 0.953704
+testing for 46 features
+anova score 0.898148
+testing for 47 features
+anova score 0.949074
+testing for 48 features
+anova score 0.939815
+testing for 49 features
+anova score 0.930556
+testing for 50 features
+anova score 0.944444
+testing for 51 features
+anova score 0.958333
+testing for 52 features
+anova score 0.953704
+testing for 53 features
+anova score 0.912037
+testing for 54 features
+anova score 0.967593
+testing for 55 features
+anova score 0.949074
+testing for 56 features
+anova score 0.967593
+testing for 57 features
+anova score 0.972222
+testing for 58 features
+anova score 0.972222
+testing for 59 features
+anova score 0.939815
+testing for 60 features
+anova score 0.944444
+testing for 61 features
+anova score 0.953704
+testing for 62 features
+anova score 0.958333
+testing for 63 features
+anova score 0.967593
+testing for 64 features
+anova score 0.944444
+testing for 65 features
+anova score 0.944444
+testing for 66 features
+anova score 0.930556
+testing for 67 features
+anova score 0.972222
+testing for 68 features
+anova score 0.972222
+testing for 69 features
+anova score 0.935185
+testing for 70 features
+anova score 0.949074
+testing for 71 features
+anova score 0.916667
+testing for 72 features
+anova score 0.981481
+testing for 73 features
+anova score 0.976852
+testing for 74 features
+anova score 0.939815
+testing for 75 features
+anova score 0.953704
+testing for 76 features
+anova score 0.949074
+optimal number of features Univariate feature selection 72
+Optimal score with  Univariate feature selection 0.981481
+Optimal features
+['MouseID' 'DYRK1A_N' 'ITSN1_N' 'BDNF_N' 'NR1_N' 'NR2A_N' 'pAKT_N'
+ 'pBRAF_N' 'pCAMKII_N' 'pCREB_N' 'pELK_N' 'pERK_N' 'pJNK_N' 'PKCA_N'
+ 'pMEK_N' 'pNR1_N' 'pNR2A_N' 'pNR2B_N' 'pPKCAB_N' 'pRSK_N' 'AKT_N'
+ 'BRAF_N' 'CAMKII_N' 'CREB_N' 'ELK_N' 'ERK_N' 'GSK3B_N' 'JNK_N' 'MEK_N'
+ 'TRKA_N' 'RSK_N' 'APP_N' 'Bcatenin_N' 'SOD1_N' 'MTOR_N' 'P38_N' 'pMTOR_N'
+ 'DSCR1_N' 'AMPKA_N' 'NR2B_N' 'pNUMB_N' 'RAPTOR_N' 'TIAM1_N' 'NUMB_N'
+ 'P70S6_N' 'pGSK3B_N' 'pPKCG_N' 'CDK5_N' 'S6_N' 'AcetylH3K9_N' 'RRP1_N'
+ 'BAX_N' 'ARC_N' 'ERBB4_N' 'nNOS_N' 'Tau_N' 'GluR3_N' 'GluR4_N' 'IL1B_N'
+ 'P3525_N' 'pCASP9_N' 'PSD95_N' 'SNCA_N' 'Ubiquitin_N' 'pGSK3B_Tyr216_N'
+ 'SHH_N' 'BAD_N' 'BCL2_N' 'pS6_N' 'pCFOS_N' 'SYP_N' 'H3AcK18_N']
+Optimal score with  backward feature selection 0
+optimal number of features backward feature selection 76.000000
+Optimal features
+['MouseID' 'DYRK1A_N' 'ITSN1_N' 'BDNF_N' 'NR1_N' 'NR2A_N' 'pAKT_N'
+ 'pBRAF_N' 'pCAMKII_N' 'pCREB_N' 'pELK_N' 'pERK_N' 'pJNK_N' 'PKCA_N'
+ 'pMEK_N' 'pNR1_N' 'pNR2A_N' 'pNR2B_N' 'pPKCAB_N' 'pRSK_N' 'AKT_N'
+ 'BRAF_N' 'CAMKII_N' 'CREB_N' 'ELK_N' 'ERK_N' 'GSK3B_N' 'JNK_N' 'MEK_N'
+ 'TRKA_N' 'RSK_N' 'APP_N' 'Bcatenin_N' 'SOD1_N' 'MTOR_N' 'P38_N' 'pMTOR_N'
+ 'DSCR1_N' 'AMPKA_N' 'NR2B_N' 'pNUMB_N' 'RAPTOR_N' 'TIAM1_N' 'pP70S6_N'
+ 'NUMB_N' 'P70S6_N' 'pGSK3B_N' 'pPKCG_N' 'CDK5_N' 'S6_N' 'ADARB1_N'
+ 'AcetylH3K9_N' 'RRP1_N' 'BAX_N' 'ARC_N' 'ERBB4_N' 'nNOS_N' 'Tau_N'
+ 'GFAP_N' 'GluR3_N' 'GluR4_N' 'IL1B_N' 'P3525_N' 'pCASP9_N' 'PSD95_N'
+ 'SNCA_N' 'Ubiquitin_N' 'pGSK3B_Tyr216_N' 'SHH_N' 'BAD_N' 'BCL2_N' 'pS6_N'
+ 'pCFOS_N' 'SYP_N' 'H3AcK18_N' 'EGR1_N']
+results saved in folder best_features/f1_macro/results_log/

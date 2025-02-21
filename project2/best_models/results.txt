@@ -1,0 +1,176 @@
+Results for metric -> accuracy
+Model Pipeline(memory=None,
+         steps=[('tree',
+                 DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None,
+                                        criterion='gini', max_depth=None,
+                                        max_features=None, max_leaf_nodes=None,
+                                        min_impurity_decrease=0.0,
+                                        min_impurity_split=None,
+                                        min_samples_leaf=1, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        presort='deprecated', random_state=None,
+                                        splitter='best'))],
+         verbose=False):
+Best Average training score: 0.565
+best parameters
+{'tree__criterion': 'gini', 'tree__max_depth': 4, 'tree__max_features': 'log2'}
+Score for optimum hyperparameters: 0.500
+Model Pipeline(memory=None,
+         steps=[('clf',
+                 SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+                               early_stopping=False, epsilon=0.1, eta0=0.0,
+                               fit_intercept=True, l1_ratio=0.15,
+                               learning_rate='optimal', loss='hinge',
+                               max_iter=150, n_iter_no_change=5, n_jobs=None,
+                               penalty='l2', power_t=0.5, random_state=None,
+                               shuffle=True, tol=0.001, validation_fraction=0.1,
+                               verbose=0, warm_start=False))],
+         verbose=False):
+Best Average training score: 0.836
+best parameters
+{'clf__alpha': 1e-05, 'clf__max_iter': 80, 'clf__penalty': 'elasticnet'}
+Score for optimum hyperparameters: 0.866
+Model Pipeline(memory=None,
+         steps=[('log',
+                 LogisticRegression(C=1.0, class_weight=None, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=100,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=None,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False))],
+         verbose=False):
+Best Average training score: 0.908
+best parameters
+{'log__solver': 'lbfgs'}
+Score for optimum hyperparameters: 0.856
+Model Pipeline(memory=None,
+         steps=[('knn',
+                 KNeighborsClassifier(algorithm='auto', leaf_size=30,
+                                      metric='minkowski', metric_params=None,
+                                      n_jobs=None, n_neighbors=5, p=2,
+                                      weights='uniform'))],
+         verbose=False):
+Best Average training score: 0.990
+best parameters
+{'knn__algorithm': 'ball_tree', 'knn__n_neighbors': 3}
+Score for optimum hyperparameters: 0.944
+Model Pipeline(memory=None,
+         steps=[('svm_nlin',
+                 SVC(C=1.0, break_ties=False, cache_size=200, class_weight=None,
+                     coef0=0.0, decision_function_shape='ovr', degree=3,
+                     gamma='scale', kernel='rbf', max_iter=10000,
+                     probability=False, random_state=None, shrinking=True,
+                     tol=0.001, verbose=False))],
+         verbose=False):
+Best Average training score: 0.992
+best parameters
+{'svm_nlin__C': 5, 'svm_nlin__kernel': 'linear'}
+Score for optimum hyperparameters: 0.981
+Model Pipeline(memory=None,
+         steps=[('mlper',
+                 MLPClassifier(activation='relu', alpha=0.0001,
+                               batch_size='auto', beta_1=0.9, beta_2=0.999,
+                               early_stopping=False, epsilon=1e-08,
+                               hidden_layer_sizes=(100,),
+                               learning_rate='constant',
+                               learning_rate_init=0.001, max_fun=15000,
+                               max_iter=200, momentum=0.9, n_iter_no_change=10,
+                               nesterovs_momentum=True, power_t=0.5,
+                               random_state=None, shuffle=True, solver='lbfgs',
+                               tol=0.0001, validation_fraction=0.1,
+                               verbose=False, warm_start=False))],
+         verbose=False):
+Best Average training score: 1.000
+best parameters
+{'mlper__activation': 'logistic', 'mlper__hidden_layer_sizes': 100, 'mlper__learning_rate': 'invscaling'}
+Score for optimum hyperparameters: 0.968
+Results for metric -> f1_macro
+Model Pipeline(memory=None,
+         steps=[('tree',
+                 DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None,
+                                        criterion='gini', max_depth=4,
+                                        max_features='log2',
+                                        max_leaf_nodes=None,
+                                        min_impurity_decrease=0.0,
+                                        min_impurity_split=None,
+                                        min_samples_leaf=1, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        presort='deprecated', random_state=None,
+                                        splitter='best'))],
+         verbose=False):
+Best Average training score: 0.565
+best parameters
+{'tree__criterion': 'gini', 'tree__max_depth': 4, 'tree__max_features': 'log2'}
+Score for optimum hyperparameters: 0.463
+Model Pipeline(memory=None,
+         steps=[('clf',
+                 SGDClassifier(alpha=1e-05, average=False, class_weight=None,
+                               early_stopping=False, epsilon=0.1, eta0=0.0,
+                               fit_intercept=True, l1_ratio=0.15,
+                               learning_rate='optimal', loss='hinge',
+                               max_iter=80, n_iter_no_change=5, n_jobs=None,
+                               penalty='elasticnet', power_t=0.5,
+                               random_state=None, shuffle=True, tol=0.001,
+                               validation_fraction=0.1, verbose=0,
+                               warm_start=False))],
+         verbose=False):
+Best Average training score: 0.836
+best parameters
+{'clf__alpha': 1e-05, 'clf__max_iter': 80, 'clf__penalty': 'elasticnet'}
+Score for optimum hyperparameters: 0.685
+Model Pipeline(memory=None,
+         steps=[('log',
+                 LogisticRegression(C=1.0, class_weight=None, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=100,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=None,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False))],
+         verbose=False):
+Best Average training score: 0.908
+best parameters
+{'log__solver': 'lbfgs'}
+Score for optimum hyperparameters: 0.856
+Model Pipeline(memory=None,
+         steps=[('knn',
+                 KNeighborsClassifier(algorithm='ball_tree', leaf_size=30,
+                                      metric='minkowski', metric_params=None,
+                                      n_jobs=None, n_neighbors=3, p=2,
+                                      weights='uniform'))],
+         verbose=False):
+Best Average training score: 0.990
+best parameters
+{'knn__algorithm': 'ball_tree', 'knn__n_neighbors': 3}
+Score for optimum hyperparameters: 0.944
+Model Pipeline(memory=None,
+         steps=[('svm_nlin',
+                 SVC(C=5, break_ties=False, cache_size=200, class_weight=None,
+                     coef0=0.0, decision_function_shape='ovr', degree=3,
+                     gamma='scale', kernel='linear', max_iter=10000,
+                     probability=False, random_state=None, shrinking=True,
+                     tol=0.001, verbose=False))],
+         verbose=False):
+Best Average training score: 0.992
+best parameters
+{'svm_nlin__C': 5, 'svm_nlin__kernel': 'linear'}
+Score for optimum hyperparameters: 0.981
+Model Pipeline(memory=None,
+         steps=[('mlper',
+                 MLPClassifier(activation='logistic', alpha=0.0001,
+                               batch_size='auto', beta_1=0.9, beta_2=0.999,
+                               early_stopping=False, epsilon=1e-08,
+                               hidden_layer_sizes=100,
+                               learning_rate='invscaling',
+                               learning_rate_init=0.001, max_fun=15000,
+                               max_iter=200, momentum=0.9, n_iter_no_change=10,
+                               nesterovs_momentum=True, power_t=0.5,
+                               random_state=None, shuffle=True, solver='lbfgs',
+                               tol=0.0001, validation_fraction=0.1,
+                               verbose=False, warm_start=False))],
+         verbose=False):
+Best Average training score: 1.000
+best parameters
+{'mlper__activation': 'logistic', 'mlper__hidden_layer_sizes': 100, 'mlper__learning_rate': 'invscaling'}
+Score for optimum hyperparameters: 0.949

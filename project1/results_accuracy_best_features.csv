@@ -1,0 +1,13 @@
+,Model,Method,Best Features,Performance full,Performance selected
+0,SGDClassifier,Univariate,age ejection_fraction serum_creatinine time ,0.317,0.700
+1,SGDClassifier,RFE,platelets ,0.317,0.683
+2,KNeighborsClassifier,Univariate,age serum_creatinine time ,0.683,0.883
+3,KNeighborsClassifier,RFE,age anaemia creatinine_phosphokinase diabetes ejection_fraction high_blood_pressure platelets serum_creatinine serum_sodium sex smoking time ,0.683,0.683
+4,LogisticRegression,Univariate,age ejection_fraction serum_creatinine time ,0.900,0.883
+5,LogisticRegression,RFE,age anaemia diabetes ejection_fraction high_blood_pressure serum_creatinine sex smoking time ,0.900,0.883
+6,MLPClassifier,Univariate,age ejection_fraction serum_creatinine serum_sodium time ,0.683,0.783
+7,MLPClassifier,RFE,age anaemia creatinine_phosphokinase diabetes ejection_fraction high_blood_pressure platelets serum_creatinine serum_sodium sex smoking time ,0.683,0.683
+8,SVC,Univariate,age ejection_fraction serum_creatinine serum_sodium time ,0.683,0.900
+9,SVC,RFE,age anaemia creatinine_phosphokinase diabetes ejection_fraction high_blood_pressure platelets serum_creatinine serum_sodium sex smoking time ,0.683,0.683
+10,DecisionTreeClassifier,Univariate,serum_creatinine time ,0.800,0.883
+11,DecisionTreeClassifier,RFE,creatinine_phosphokinase ejection_fraction platelets serum_creatinine smoking time ,0.717,0.883

@@ -1,0 +1,36 @@
+testing best model MLPClassifier
+testing for 1 features
+anova score 0.716667
+testing for 2 features
+anova score 0.716667
+testing for 3 features
+anova score 0.766667
+testing for 4 features
+anova score 0.716667
+testing for 5 features
+anova score 0.783333
+testing for 6 features
+anova score 0.716667
+testing for 7 features
+anova score 0.716667
+testing for 8 features
+anova score 0.716667
+testing for 9 features
+anova score 0.716667
+testing for 10 features
+anova score 0.733333
+testing for 11 features
+anova score 0.716667
+testing for 12 features
+anova score 0.716667
+optimal number of features Univariate feature selection 5
+Optimal score with  Univariate feature selection 0.783333
+Optimal features
+['age' 'ejection_fraction' 'serum_creatinine' 'serum_sodium' 'time']
+Optimal score with  backward feature selection 0.7166666666666667
+optimal number of features backward feature selection 12
+Optimal features
+['age' 'anaemia' 'creatinine_phosphokinase' 'diabetes' 'ejection_fraction'
+ 'high_blood_pressure' 'platelets' 'serum_creatinine' 'serum_sodium' 'sex'
+ 'smoking' 'time']
+results saved in folder best_features/f1/results_log/

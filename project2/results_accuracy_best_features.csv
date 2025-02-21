@@ -1,0 +1,13 @@
+,Model,Method,Num of Best Features,Performance full,Performance selected
+0,SGDClassifier,Univariate,67,0.611,0.731
+1,SGDClassifier,RFE,34,0.861,0.750
+2,KNeighborsClassifier,Univariate,26,0.958,0.986
+3,KNeighborsClassifier,RFE,34,0.958,0.968
+4,LogisticRegression,Univariate,69,0.861,0.861
+5,LogisticRegression,RFE,43,0.861,0.861
+6,MLPClassifier,Univariate,45,0.981,0.940
+7,MLPClassifier,RFE,43,0.991,0.981
+8,SVC,Univariate,69,0.986,0.986
+9,SVC,RFE,59,0.986,0.986
+10,DecisionTreeClassifier,Univariate,41,0.519,0.588
+11,DecisionTreeClassifier,RFE,67,0.435,0.509

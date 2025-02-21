@@ -1,0 +1,25 @@
+testing best model SGDClassifier
+testing for 2 features
+2
+anova score 0.250000
+75
+testing for 3 features
+3
+anova score 0.106481
+testing for 4 features
+4
+anova score 0.370370
+75
+testing for 5 features
+5
+anova score 0.365741
+testing for 6 features
+6
+anova score 0.342593
+testing for 7 features
+7
+anova score 0.370370
+testing for 8 features
+8
+anova score 0.402778
+75

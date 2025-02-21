@@ -1,0 +1,57 @@
+testing best model DecisionTreeClassifier
+testing for 1 features
+f1 score: 0.6060606060606061
+anova score 0.783333
+ROC score: 0.7243502051983585
+testing for 2 features
+f1 score: 0.6486486486486486
+anova score 0.783333
+ROC score: 0.7599179206566348
+testing for 3 features
+f1 score: 0.6111111111111113
+anova score 0.766667
+ROC score: 0.7305061559507524
+testing for 4 features
+f1 score: 0.5789473684210527
+anova score 0.733333
+ROC score: 0.707250341997264
+testing for 5 features
+f1 score: 0.6666666666666667
+anova score 0.816667
+ROC score: 0.7653898768809849
+testing for 6 features
+f1 score: 0.6111111111111113
+anova score 0.766667
+ROC score: 0.7305061559507524
+testing for 7 features
+f1 score: 0.6470588235294118
+anova score 0.800000
+ROC score: 0.7537619699042407
+testing for 8 features
+f1 score: 0.4827586206896552
+anova score 0.750000
+ROC score: 0.6477428180574555
+testing for 9 features
+f1 score: 0.46153846153846156
+anova score 0.766667
+ROC score: 0.6415868673050616
+testing for 10 features
+f1 score: 0.6
+anova score 0.733333
+ROC score: 0.7250341997264023
+testing for 11 features
+f1 score: 0.6666666666666667
+anova score 0.783333
+ROC score: 0.7777017783857728
+testing for 12 features
+f1 score: 0.5882352941176471
+anova score 0.766667
+ROC score: 0.7127222982216143
+optimal number of features Univariate feature selection 5
+Optimal score with  Univariate feature selection 0.816667
+Optimal features
+['age' 'ejection_fraction' 'serum_creatinine' 'serum_sodium' 'time']
+Optimal score with  backward feature selection 2
+optimal number of features backward feature selection 0.800000
+Optimal features
+['ejection_fraction' 'time']
